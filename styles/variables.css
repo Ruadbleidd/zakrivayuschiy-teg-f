@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* :root {
+    --page-font_family: 'Inter';
+    --text-variative: 'Press Start 2P';
+    --background-color-dark: #000000;
+    --background-color-light: rgb(255, 255, 255);
+} */
+
+:root {
+  --main-text: "Inter-Variable";
+  --accent-text: "PressStart2P";
+  --main-text-weight: 400;
+  --title-text-weight: 700;
+  --background-color: #ffffff;
+  --accent-color: #000000;
+  --text-shadow-color: #ffffff;
+  --button-text: #ffffff;
+  --heart: #ff0000;
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+}

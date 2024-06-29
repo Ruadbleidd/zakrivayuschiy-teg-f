@@ -4,3 +4,106 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+/* :root.theme-dark {
+--background-color: var(--background-color-dark);
+background: var(--background-color);
+--text-color: rgb(0, 204, 20);
+color: var(--text-color);
+--gradient:repeating-linear-gradient(to right, #000 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+repeating-linear-gradient(to bottom, #000 0 2px, rgb(0 0 0 / 0) 2px 4px), 
+linear-gradient(to bottom, #007f0c 0.01%, #004306), url(../images/background.png);
+}
+
+
+:root.theme-light {
+background: var(--background-color-light);
+--text-color: rgb(0, 0, 0);
+color:var(--text-color);
+--background-gradient:(#E7E7E7, #1A1A1A);
+--gradient:repeating-linear-gradient(to right, #d3d3d3  2px, rgb(0 0 0 / 0) 2px 4px), 
+/* repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),  */
+/* linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a), url(../images/background.png); */
+/* } */
+
+:root.theme-light {
+  --main-text: "Inter-Variable";
+  --accent-text: "PressStart2P";
+  --main-text-weight: 400;
+  --title-text-weight: 700;
+  --background-color: #ffffff;
+  --accent-color: #000000;
+  --text-shadow-color: #ffffff;
+  --button-text: #fff;
+  --heart: #ff0000;
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+}
+
+:root.theme-dark {
+  --main-text: "Inter-Variable";
+  --accent-text: "PressStart2P";
+  --main-text-weight: 465;
+  --title-text-weight: 785;
+  --background-color: #000000;
+  --accent-color: #00cc14;
+  --text-shadow-color: #000000;
+  --button-text: #00cc14;
+  --background-image: repeating-linear-gradient(
+      to right,
+      #000 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(to bottom, #007f0c 0.01%, #004306);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text: "Inter-Variable";
+    --accent-text: "PressStart2P";
+    --main-text-weight: 465;
+    --title-text-weight: 785;
+    --background-color: #000000;
+    --accent-color: #00cc14;
+    --text-shadow-color: #000000;
+    --button-text: #00cc14;
+    --background-image: repeating-linear-gradient(
+        to right,
+        #000 0 2px,
+        rgb(0 0 0 / 0) 2px 4px
+      ),
+      repeating-linear-gradient(to bottom, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+      linear-gradient(to bottom, #007f0c 0.01%, #004306);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text: "Inter-Variable";
+    --accent-text: "PressStart2P";
+    --main-text-weight: 400;
+    --title-text-weight: 700;
+    --background-color: #ffffff;
+    --accent-color: #000000;
+    --text-shadow-color: #ffffff;
+    --button-text: #fff;
+    --heart: #ff0000;
+    --background-image: repeating-linear-gradient(
+        to right,
+        #d3d3d3 0 2px,
+        rgb(0 0 0 / 0) 2px 4px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        #d3d3d3 0 2px,
+        rgb(0 0 0 / 0) 2px 4px
+      ),
+      linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  }
+}
