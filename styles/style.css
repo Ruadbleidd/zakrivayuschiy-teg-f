@@ -14,37 +14,6 @@
 
 */
 
-/* .page {
-  min-inline-size: 320px;
-  min-block-size: 100dvb;
-  font-family: var(--page-font_family);
-  background-position: center;
-background-repeat:no-repeat; 
-background-size: cover;
-background-image:var(--gradient);
-background-blend-mode: multiply;
-background-attachment: fixed;
-}
-
-
-.header {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header-title {
-  font-family:var(--text-variative);
-}
-
-
-.header-html {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;

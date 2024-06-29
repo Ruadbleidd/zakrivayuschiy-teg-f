@@ -1,10 +1,4 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-/* :root {
-    --page-font_family: 'Inter';
-    --text-variative: 'Press Start 2P';
-    --background-color-dark: #000000;
-    --background-color-light: rgb(255, 255, 255);
-} */
 
 :root {
   --main-text: "Inter-Variable";
