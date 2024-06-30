@@ -283,13 +283,13 @@
 }
 
 .card__icon-button:hover .main-body {
-  fill: var(--accent-color, #000000);
+  fill: #000000;
   transition: fill 0.3s linear 0.05s;
 }
 
 .card__icon-button:active .main-body {
-  fill:  var(#000000);
-  transition: fill 0.3s linear 0.03s;
+  fill:  var(--heart);
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon.is-liked .main-body {
@@ -299,22 +299,22 @@
 
 .core {
   fill: var(--background-color, #ffffff);
-  transition: fill 0.3s linear 0.05s;
+  transition: fill 0.3s linear 0.03s;
 }
 
 .card__icon-button:hover .core {
-  fill: var(--accent-color, #000000);
+  fill: #000000;
   transition: fill 0.3s linear;
 }
 
 .card__icon-button:active .core {
-  fill: var(#000000);
-  transition: fill 0.3s linear 0.05s;
+  fill: var(--heart);
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .core {
   fill: var(--heart, #ff0000);
-  transition: fill 0.5s linear;
+  transition: fill 0.3s linear;
 }
 
 .sparks {
